@@ -1,0 +1,135 @@
+.navn {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  color: teal;
+  margin-bottom: -50px;
+  margin-top: auto;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.cv2020 {
+  font-weight: lighter;
+  text-align: center;
+  color: grey;
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+}
+.kontakt-felt {
+  background-color: powderblue;
+  position: fixed;
+  top: 120px;
+  margin-left: 10px;
+  padding: 20px 20px 20px 20px;
+
+}
+/*
+.flex-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  float:left;
+  margin-left: 850px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  */
+
+
+.flex-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+
+}
+
+img {
+  border-radius: 50%;
+  float: right;
+}
+.forside-billede {
+
+  }
+.tekst {
+    align-items: center;
+    max-width: 300px;
+    display: inline;
+    margin-right: 30px;
+  }
+
+  @media screen and (max-width:500px){}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.flex-container div {
+  background-color: lightcyan;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  line-height: 75px;
+  width: 30%;
+  margin-left: 23px;
+  margin-right: 23px;
+  font-family: sans-serif;
+}
+@media only screen and (max-width: 800px){
+  .flex-container div {
+    width: 23%;
+  }
+}
+@media only screen and (max-width: 500px){
+  .flex-container div {
+    width: 48%;
+  }
+}
+.overskrift-i-boks {
+ font-weight: bold;
+ color: teal;
+}
+.links1, .links2, .links3 {
+  color: black;
+  font-weight: bold;
+}
+.liste-uddannelse li {
+  font-size: 15px;
+  list-style: circle;
+  text-align: left;
+  margin-left: -20px;
+}
+.li1 {
+  line-height: 40px;
+}
+.liste-kurser li {
+  font-size: 15px;
+  list-style: circle;
+  text-align: left;
+  margin-left: -20px;
+}
+.li2 {
+  line-height: 30px;
+  font-size: 15px;
+  list-style: circle;
+  text-align: left;
+  margin-left: -20px;
+}
+.liste-arbejde li {
+  font-size: 15px;
+  list-style: circle;
+  text-align: left;
+  margin-left: -20px;
+}
+.footer {
+  background-color: teal;
+  line-height: 60px;
+  margin-top: 20px;
+  opacity: 80%;
+  text-align: center;
+  width: 100%;
+}
